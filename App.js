@@ -17,7 +17,7 @@ export default function App() {
       );
   } else {
     return(
-      <AppLoading
+      <ApzzspLoading
         startAsync={getFonts}
         onFinish={()=> setFontsLoaded(true)}
       />
