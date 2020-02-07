@@ -17,10 +17,11 @@ export default function App() {
       );
   } else {
     return(
-      <ApzzspLoading
+      <AppLoading
         startAsync={getFonts}
         onFinish={()=> setFontsLoaded(true)}
       />
     )
   }
 }
+//suuuuu
